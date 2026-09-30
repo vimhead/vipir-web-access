@@ -84,7 +84,7 @@ function exaApiHeaders(apiKey: string): Record<string, string> {
 	return {
 		"x-api-key": apiKey,
 		"Content-Type": "application/json",
-		"x-exa-integration": "pi-web-access",
+		"x-exa-integration": "vipir-web-access",
 	};
 }
 
@@ -201,7 +201,7 @@ export async function callExaMcp(
 		headers: {
 			"Content-Type": "application/json",
 			"Accept": "application/json, text/event-stream",
-			"x-exa-source": "pi-web-access",
+			"x-exa-source": "vipir-web-access",
 		},
 		body: JSON.stringify({
 			jsonrpc: "2.0",

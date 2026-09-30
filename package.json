@@ -1,5 +1,5 @@
 {
-  "name": "pi-web-access",
+  "name": "vipir-web-access",
   "version": "0.23.0",
   "description": "Web search, URL fetching, GitHub repo cloning, PDF extraction, YouTube video understanding, and local video analysis for Pi coding agent. Supports OpenAI, Brave, Parallel, TinyFish, Search1API, Searchinfinity, Querit, Tavily, Firecrawl, Jina, SERPdive, Kagi, Ollama, AnySearch, Bright Data SERP, SerpBase, SearXNG, Exa, Perplexity, and Gemini.",
   "type": "module",
@@ -24,9 +24,9 @@
   ],
   "author": "Nico Bailon",
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/vimhead/pi-web-access.git" },
-  "homepage": "https://github.com/vimhead/pi-web-access#readme",
-  "bugs": { "url": "https://github.com/vimhead/pi-web-access/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/vimhead/vipir-web-access.git" },
+  "homepage": "https://github.com/vimhead/vipir-web-access#readme",
+  "bugs": { "url": "https://github.com/vimhead/vipir-web-access/issues" },
   "files": [
     "*.ts",
     "banner.png",
@@ -56,6 +56,6 @@
     "extensions": [
       "./index.ts"
     ],
-    "video": "https://github.com/vimhead/pi-web-access/raw/refs/heads/main/pi-web-fetch-demo.mp4"
+    "video": "https://github.com/vimhead/vipir-web-access/raw/refs/heads/main/pi-web-fetch-demo.mp4"
   }
 }

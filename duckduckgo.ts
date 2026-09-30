@@ -77,7 +77,7 @@ export async function searchWithDuckDuckGo(query: string, options: SearchOptions
 			method: "GET",
 			headers: {
 				Accept: "text/html",
-				"User-Agent": "Mozilla/5.0 (compatible; pi-web-access/1.0; +https://github.com/nicobailon/pi-web-access)",
+				"User-Agent": "Mozilla/5.0 (compatible; vipir-web-access/1.0; +https://github.com/vimhead/vipir-web-access)",
 			},
 			signal: options.signal
 				? AbortSignal.any([AbortSignal.timeout(SEARCH_TIMEOUT_MS), options.signal])

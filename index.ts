@@ -294,7 +294,7 @@ function loadConfigForExtensionInit(): WebSearchConfig {
 		return loadConfig();
 	} catch (err) {
 		const message = err instanceof Error ? err.message : String(err);
-		console.error(`[pi-web-access] ${message}`);
+		console.error(`[vipir-web-access] ${message}`);
 		return {};
 	}
 }

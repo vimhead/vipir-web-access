@@ -1,14 +1,14 @@
-# pi-web-access
+# vipir-web-access
 
 Web search, page fetching, source checks, PDF extraction, and video analysis for the Pi coding agent.
 
 ## Install
 
 ```sh
-pi install git:github.com/vimhead/pi-web-access
+pi install git:github.com/vimhead/vipir-web-access
 ```
 
-Use current Pi and Node.js 24+, then run **`/reload`**. Enabled by default in [Vipi](https://github.com/vimhead/vipi).
+Use current Pi and Node.js 24+, then run **`/reload`**. Enabled by default in [Vipir](https://github.com/vimhead/vipir).
 
 ## Use
 
@@ -28,4 +28,4 @@ PDFs support local text extraction; hosted extraction and video analysis may req
 
 Browser-cookie access is off by default. Queries and content sent to hosted providers are subject to those providers’ policies.
 
-Disable in `/vipi` and sync, or run `pi remove git:github.com/vimhead/pi-web-access` and reload.
+Disable in `/vipir` and sync, or run `pi remove git:github.com/vimhead/vipir-web-access` and reload.
